@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
 :root {
-    --primary-color: #8b5cf6 ;
+    --primary-color: #8b5cf6;
     --dark-gray: #9CA3AF;
+    --off-white: #E5E7EB;
 }
+
 /* Container */
 hr {
     margin: 2rem 0rem;
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
@@ -43,11 +45,11 @@ hr {
 }
 
 /* lists */
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
@@ -55,23 +57,27 @@ hr {
 
 /* navigation */
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .list-item{
+
+.navigation .list-item {
     color: white;
     text-decoration: none;
 }
-.navigation .unordered{
+
+.navigation .unordered {
     text-align: right;
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-weight: bold;
 }
-.unordered .link-active{
+
+.unordered .link-active {
     font-weight: bold;
 }
 
@@ -82,15 +88,56 @@ hr {
     text-align: center;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     margin: auto;
-    background-size: cover;
+    display: block;
+    max-width: 440px;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     color: var(--dark-gray);
 }
 
-.hero .hero-heading .header-highlight{
+.hero .hero-heading .header-highlight {
     color: var(--primary-color);
 }
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.section{
+    margin: 1rem;
+}
+
+
+.plain-white{
+    padding: 1rem;
+    border: 1px solid;
+    border-radius:1rem;
+    
+}
+.off-white{
+    background-color: var(--off-white);
+    padding: 1rem;
+    border-radius:1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.list-item{
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
