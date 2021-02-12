@@ -39,7 +39,8 @@
     <h2>@lists</h2>
     <h3>unordered lists</h3>
     <p>We don't want bullets in the unordered list. We'll remove that with CSS.</p>
-    <ul> <!-- this will tell the browser that this is a list defined :)) -->
+    
+    <ul class="list-non-bullet"> <!-- this will tell the browser that this is a list defined :)) -->
         <li>Item one</li>
         <!-- <span>This is inline span tag</span> -->
         <li>Item two</li>
@@ -48,13 +49,13 @@
     <hr>
     
     <h3>Unordered inline list</h3>
-    <ul>
-        <li style="display: inline;">Inline Item One</li>
-        <li style="display: inline;">Inline Item Two</li>
-        <li style="display: inline;">Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
     <h3>Reverse Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>butter</li>
         <li>Honey</li>
@@ -62,17 +63,17 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <div>Brand Name</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Brand Name</div>
+        <ul class="unordered">
+            <li class="list-item-inline">
+                <a class="list-item link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="list-item" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="list-item" href="/">about</a>
             </li>
         </ul>
     </nav>
