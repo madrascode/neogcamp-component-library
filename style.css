@@ -4,6 +4,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+    --primary-color: #2DD4BF;
+}
 /* Container */
 
 .container{
@@ -18,4 +21,23 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: whitesmoke;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
