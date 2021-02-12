@@ -6,6 +6,7 @@ body{
 
 :root {
     --primary-color: #8b5cf6 ;
+    --dark-gray: #9CA3AF;
 }
 /* Container */
 hr {
@@ -74,4 +75,22 @@ hr {
     font-weight: bold;
 }
 
+/* header */
 
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-img{
+    margin: auto;
+    background-size: cover;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .header-highlight{
+    color: var(--primary-color);
+}
