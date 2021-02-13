@@ -19,6 +19,7 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    margin:auto;
 }
 
 .container-center {
@@ -32,18 +33,27 @@ hr {
     padding: 0.5rem 1rem;
 }
 
-
 .primary-link {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: whitesmoke;
+    color: white;
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
-
 .secondary-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
+
 
 /* lists */
 .list-non-bullet {
@@ -68,6 +78,7 @@ hr {
 .navigation .list-item {
     color: white;
     text-decoration: none;
+    padding: 1rem;
 }
 
 .navigation .unordered {
@@ -116,10 +127,22 @@ hr {
     margin-top: 60px;
 }
 
+.header-project{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    color: var(--dark-gray);
+    text-align: center;
+}
+.header-code{
+    color: var(--primary-color);
+}
+
 /* section */
 .section h1, h5 {
     text-align: center;
 }
+
 
 .off-white{
     padding: 1rem;
@@ -131,7 +154,16 @@ hr {
 /* .section .container{
     text-align: center;
 } */
+/* .even-color li:nth-of-type(2n){
+    background-color: var(--off-white);
+}
+ */
 
+
+.showcase{
+    padding: 1rem;
+    display: block;
+}
 .plain-white{
     padding: 1rem;
     /* border: 1px solid;
@@ -149,7 +181,6 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    margin-top: 1rem;
 }
 
 .footer .footer-header {
@@ -162,6 +193,11 @@ hr {
     text-decoration: none;
 }
 
+.list-unordered{
+    list-style: none;
+}
+
 .footer ul{
     padding-inline-start: 0px;
+    margin-bottom: 1rem;
 }
