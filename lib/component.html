@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Dheeraj purohit's component library</h1>
+    <p>I am attending neog.camp and I want to make a library which
+        would make all my projects look good and consistent.
+    </p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is normal text. this will wrap the text like a paragraph</p>
+    <p>This paragraph have <strong>bold</strong> text</p>
+    <small>This text is made using small tag</small>
+    <hr>
+    <h2>@container</h2>
+    <h3>Fluid Container</h3>
+    <div class="container container-fluid">This is a fluid container and it will go till the end of the page and will
+        automatically wrap itself according to the page length.</div>
+
+    <h3>Center container</h3>
+    <div class="container container-center">This is center container , this will go till a given width and center
+        content.</div>
+    <hr>
+
+    <h2>@links</h2>
+    <a class="link primary-link" href="/">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>We don't want bullets in the unordered list. We'll remove that with CSS.</p>
+
+    <ul class="list-non-bullet">
+        <!-- this will tell the browser that this is a list defined :)) -->
+        <li>Item one</li>
+        <!-- <span>This is inline span tag</span> -->
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <hr>
+
+    <h3>Unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+    <h3>Reverse Ordered List</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>butter</li>
+        <li>Honey</li>
+    </ol>
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">Brand Name</div>
+        <ul class="unordered">
+            <li class="list-item-inline">
+                <a class="list-item link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="list-item" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="list-item" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <h2>@Header</h2>
+    <header class="hero">
+        <img class="hero-img" src="/Images/header.svg" />
+        <h1 class="hero-heading">Utkristh <span class="header-highlight">Web</span> Studio</h1>
+    </header>
+    <hr>
+    <h2>@section</h2>
+    <div class="container container-center">
+        <section class="section plain-white">
+            <h1>white section</h1>
+            <p>In our previous post, An update on MDN Web Docs’ localization strategy, we explained our broad strategy for moving forward with allowing translation edits on MDN again. The MDN localization communities are waiting for news of our progress on unfreezing the top-tier locales, and here we are</p>
+        </section>
+    </div>
+    <div class="container container-center ">
+        <section class="section off-white">
+            <h1>off white section</h1>
+            <p>In our previous post, An update on MDN Web Docs’ localization strategy, we explained our broad strategy for moving forward with allowing translation edits on MDN again. The MDN localization communities are waiting for news of our progress on unfreezing the top-tier locales, and here we are</p>
+        </section>
+    </div>
+    
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">Small heading inside footer</div>
+        <ul class="social-links">
+            <li class="list-item-inline"><a class="list-item"href="/">
+                Social 1
+            </a></li>
+
+            <li class="list-item-inline"><a class="list-item" href="/">
+                Social 2
+            </a>
+                </li>
+            <li class="list-item-inline"><a class="list-item" href="/">
+                Social 3
+            </a></li>
+        </ul>
+    </footer>
+
+
+    <div style="height: 30vh">
+
+    </div>
+</body>
+
+</html>
