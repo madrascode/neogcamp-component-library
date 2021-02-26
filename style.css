@@ -24,13 +24,21 @@ hr {
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin: 0.1rem auto;
 }
 
 /* links */
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+.projects-class .container-center:nth-of-type(odd){
+    background-color: var(--off-white);
+}
+
+.blog-class article:nth-of-type(odd){
+    background-color: var(--off-white);
 }
 
 .primary-link {
