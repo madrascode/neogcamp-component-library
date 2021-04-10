@@ -24,6 +24,7 @@ hr {
 
 .container-center {
     max-width: 600px;
+    /* min-width: 600px; */
     margin: 0.1rem auto;
 }
 
@@ -117,7 +118,7 @@ hr {
     text-align: center;
 }
 
-.hero .hero-img {
+.hero{
     margin: auto;
     display: block;
     max-width: 440px;
@@ -125,6 +126,10 @@ hr {
 
 .hero .hero-heading {
     color: var(--dark-gray);
+}
+.hero-img{
+    max-width: 100%;
+    height: auto;
 }
 
 .hero .hero-heading .header-highlight {
